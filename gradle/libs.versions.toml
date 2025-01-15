@@ -30,6 +30,7 @@ micronaut-validation="4.8.0"
 awaitility = "4.2.2"
 micronaut-gradle-plugin = "4.4.4"
 managed-opensearch-testcontainers = "2.0.2"
+sonatype-scan = "3.0.0"
 
 # Managed versions appear in the BOM
 managed-opensearch-java = "2.16.0"
@@ -57,6 +58,7 @@ awssdk-auth = { module = 'software.amazon.awssdk:auth' }
 
 awaitility = { module = "org.awaitility:awaitility", version.ref = "awaitility" }
 gradle-micronaut = { module = "io.micronaut.gradle:micronaut-gradle-plugin", version.ref = "micronaut-gradle-plugin" }
+sonatype-scan = { module = "org.sonatype.gradle.plugins:scan-gradle-plugin", version.ref = "sonatype-scan" }
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api" }
